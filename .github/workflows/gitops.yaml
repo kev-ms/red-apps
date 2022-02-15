@@ -28,5 +28,5 @@ jobs:
         docker run \
         --name ago \
         --rm \
-        -v $(pwd)/autogitops:/ago/autogitops \
+        -v $(pwd):/ago \
         ghcr.io/bartr/autogitops:beta -r /retaildevcrews/red-gitops -p ${{ secrets.GHCR_PAT }}
