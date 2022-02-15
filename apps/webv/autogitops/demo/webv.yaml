@@ -56,7 +56,7 @@ spec:
           - -u
           - https://raw.githubusercontent.com/bartr/tinybench/main/webv/
           - -f
-          - load.json
+          - tinybench.json
           - --zone
           - {{gitops.config.zone}}
           - --region
