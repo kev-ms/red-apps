@@ -44,7 +44,7 @@ spec:
           - -r
           - -s
           - https://central-tx-austin-101.cseretail.com
-          # - https://central-tx-austin-102.cseretail.com
+          - https://central-tx-austin-102.cseretail.com
           # - https://central-mo-kc-101.cseretail.com
           # - https://central-mo-kc-102.cseretail.com
           # - https://east-ga-atlanta-101.cseretail.com
