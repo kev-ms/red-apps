@@ -1,0 +1,7 @@
+{
+    "name": "ngsa",
+    "namespace": "ngsa",
+    "imageName": "ghcr.io/cse-labs/ngsa-app",
+    "imageTag": "latest",
+    "targets": ["central"]
+}
