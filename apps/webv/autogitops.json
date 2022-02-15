@@ -1,0 +1,7 @@
+{
+    "name": "webv",
+    "namespace": "webv",
+    "imageName": "ghcr.io/cse-labs/webvalidate",
+    "imageTag": "beta",
+    "targets": ["corp-monitoring"]
+}
