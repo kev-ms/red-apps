@@ -1,4 +1,5 @@
 {
+    "apps": [ "webv", "tinybench" ],
     "name": "webv",
     "namespace": "webv",
     "imageName": "ghcr.io/cse-labs/webvalidate",
