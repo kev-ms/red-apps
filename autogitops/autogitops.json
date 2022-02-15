@@ -1,8 +1,8 @@
 {
-    "apps": [ "webv", "tinybench" ],
+    "apps": [ "ngsa", "tinybench", "webv" ],
     "name": "webv",
     "namespace": "webv",
     "imageName": "ghcr.io/cse-labs/webvalidate",
     "imageTag": "beta",
-    "targets": []
+    "targets": [ ]
 }
