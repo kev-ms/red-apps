@@ -3,5 +3,5 @@
     "namespace": "webv",
     "imageName": "ghcr.io/cse-labs/webvalidate",
     "imageTag": "beta",
-    "targets": ["corp-monitoring"]
+    "targets": [ "corp-monitoring", "bartr" ]
 }
