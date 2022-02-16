@@ -30,6 +30,9 @@ spec:
             - name: http
               containerPort: 8080
               protocol: TCP
+          args:
+          - -u
+          - /heartbeat
 
 ---
 apiVersion: v1
@@ -57,7 +60,7 @@ spec:
   entryPoints:
     - websecure
   routes:
-    - match: Host(`{{gitops.config.domain}}`) && PathPrefix(`/tinybench/`)
+    - match: Host(`{{gitops.config.domain}}`) && PathPrefix(`/heartbeat/`)
       kind: Rule
       services:
         - name: {{gitops.name}}
