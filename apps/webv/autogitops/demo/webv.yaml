@@ -54,9 +54,9 @@ spec:
           - https://west-ca-sd-101.cseretail.com
           - https://west-ca-sd-102.cseretail.com
           - -u
-          - https://raw.githubusercontent.com/retaildevcrews/red-webv/main/webvtest-temp/
+          - https://raw.githubusercontent.com/retaildevcrews/akdc/main/red-vms/webv/
           - -f
-          - load.json
+          - benchmark.json
           - --zone
           - {{gitops.config.zone}}
           - --region
