@@ -3,5 +3,5 @@
     "namespace": "tinybench",
     "imageName": "ghcr.io/bartr/tinybench",
     "imageTag": "latest",
-    "targets": ["all"]
+    "targets": ["central","east"]
 }
