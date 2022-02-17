@@ -56,7 +56,7 @@ spec:
           - -u
           - https://raw.githubusercontent.com/retaildevcrews/akdc/main/red-vms/webv/
           - -f
-          - benchmark.json
+          - baseline.json
           - --zone
           - {{gitops.config.zone}}
           - --region
