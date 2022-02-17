@@ -22,11 +22,13 @@ jobs:
 
     - name: Docker pull
       run: |
-        docker pull ghcr.io/bartr/autogitops:beta
+        docker pull ghcr.io/bartr/autogitops:latest
     - name: GitOps Deploy
       run: |
         docker run \
         --name ago \
         --rm \
         -v $(pwd):/ago \
-        ghcr.io/bartr/autogitops:beta -r /retaildevcrews/red-gitops -p ${{ secrets.GHCR_PAT }}
+        ghcr.io/bartr/autogitops:latest \
+        -r /retaildevcrews/red-gitops \
+        -p ${{ secrets.GHCR_PAT }}
