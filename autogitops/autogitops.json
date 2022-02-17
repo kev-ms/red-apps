@@ -1,6 +1,3 @@
 {
-  "apps": [ "ngsa", "tinybench", "webv" ],
-  "name": "apps",
-  "namespace": "default",
-  "targets": [ ]
+  "apps": [ "ngsa", "tinybench", "webv" ]
 }

@@ -1,18 +1,10 @@
-# My new repo
+# Retail Edge Demo Apps
 
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-> My new repo description ...
-
 ## Overview
 
-Add project overview ...
-
-### Engineering Docs
-
-- Team Working [Agreement](.github/WorkingAgreement.md)
-- Team [Engineering Practices](.github/EngineeringPractices.md)
-- CSE Engineering Fundamentals [Playbook](https://github.com/Microsoft/code-with-engineering-playbook)
+GitOps descriptions for the Retail Edge Demo apps
 
 ## How to file issues and get help  
 
